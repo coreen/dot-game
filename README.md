@@ -2,6 +2,7 @@
 
 Goal of exercise to complete game where dots move from top to bottom. Player tries to click on dots and receives points when successful.
 
+```
 +---------------------+
 |  20px/sec           |
 |                     |
@@ -19,6 +20,7 @@ Goal of exercise to complete game where dots move from top to bottom. Player tri
 |                ___  |
 |               (   ) |
 +---------------------+
+```
 
 Code quality should be equivalent to what would submit in a code review at work.
 
@@ -37,6 +39,7 @@ Project set up to use plain CSS, but can use preprocessor if wish.
 	* Dots should never be cut off vertically
 * Clicking a dot will remove it from the playing box
 	* Increments by inverse number of points to size
-		* (10px = 10 points, 100 px = 1 point)
+		* 10px = 10 points
+		* 100 px = 1 point
 	* 1000ms delay before another dot appears after click
 * New dot appears 1000ms regardless if any are clicked
